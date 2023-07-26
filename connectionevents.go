@@ -10,10 +10,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	waBinary "go.mau.fi/whatsmeow/binary"
-	"go.mau.fi/whatsmeow/store"
-	"go.mau.fi/whatsmeow/types"
-	"go.mau.fi/whatsmeow/types/events"
+	waBinary "github.com/sheexiongomh/whatsmeow/binary"
+	"github.com/sheexiongomh/whatsmeow/store"
+	"github.com/sheexiongomh/whatsmeow/types"
+	"github.com/sheexiongomh/whatsmeow/types/events"
 )
 
 func (cli *Client) handleStreamError(node *waBinary.Node) {

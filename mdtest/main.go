@@ -25,18 +25,17 @@ import (
 	"time"
 
 	_ "github.com/mattn/go-sqlite3"
-	"github.com/mdp/qrterminal/v3"
 	"google.golang.org/protobuf/proto"
 
-	"go.mau.fi/whatsmeow"
-	"go.mau.fi/whatsmeow/appstate"
-	waBinary "go.mau.fi/whatsmeow/binary"
-	waProto "go.mau.fi/whatsmeow/binary/proto"
-	"go.mau.fi/whatsmeow/store"
-	"go.mau.fi/whatsmeow/store/sqlstore"
-	"go.mau.fi/whatsmeow/types"
-	"go.mau.fi/whatsmeow/types/events"
-	waLog "go.mau.fi/whatsmeow/util/log"
+	"github.com/sheexiongomh/whatsmeow"
+	"github.com/sheexiongomh/whatsmeow/appstate"
+	waBinary "github.com/sheexiongomh/whatsmeow/binary"
+	waProto "github.com/sheexiongomh/whatsmeow/binary/proto"
+	"github.com/sheexiongomh/whatsmeow/store"
+	"github.com/sheexiongomh/whatsmeow/store/sqlstore"
+	"github.com/sheexiongomh/whatsmeow/types"
+	"github.com/sheexiongomh/whatsmeow/types/events"
+	waLog "github.com/sheexiongomh/whatsmeow/util/log"
 )
 
 var cli *whatsmeow.Client

@@ -18,13 +18,13 @@ import (
 	"golang.org/x/crypto/curve25519"
 	"golang.org/x/crypto/pbkdf2"
 
-	waBinary "go.mau.fi/whatsmeow/binary"
-	waProto "go.mau.fi/whatsmeow/binary/proto"
-	"go.mau.fi/whatsmeow/store"
-	"go.mau.fi/whatsmeow/types"
-	"go.mau.fi/whatsmeow/util/hkdfutil"
-	"go.mau.fi/whatsmeow/util/keys"
-	"go.mau.fi/whatsmeow/util/randbytes"
+	waBinary "github.com/sheexiongomh/whatsmeow/binary"
+	waProto "github.com/sheexiongomh/whatsmeow/binary/proto"
+	"github.com/sheexiongomh/whatsmeow/store"
+	"github.com/sheexiongomh/whatsmeow/types"
+	"github.com/sheexiongomh/whatsmeow/util/hkdfutil"
+	"github.com/sheexiongomh/whatsmeow/util/keys"
+	"github.com/sheexiongomh/whatsmeow/util/randbytes"
 )
 
 type PairClientType int

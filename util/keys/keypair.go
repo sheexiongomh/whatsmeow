@@ -11,7 +11,7 @@ import (
 	"go.mau.fi/libsignal/ecc"
 	"golang.org/x/crypto/curve25519"
 
-	"go.mau.fi/whatsmeow/util/randbytes"
+	"github.com/sheexiongomh/whatsmeow/util/randbytes"
 )
 
 type KeyPair struct {
