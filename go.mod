@@ -1,4 +1,4 @@
-module go.mau.fi/whatsmeow
+module github.com/sheexiongomh/whatsmeow
 
 go 1.19
 
