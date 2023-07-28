@@ -128,7 +128,7 @@ func (cli *Client) decryptMessages(info *types.MessageInfo, node *waBinary.Node)
 		cli.Log.Warnf("Unavailable message %s from %s", info.ID, info.SourceString())
 		// Add a delay of 5 seconds before calling the sendRetryReceipt function in a goroutine
 		go func() {
-			time.Sleep(5 * time.Second)
+			time.Sleep(8 * time.Second)
 			cli.sendRetryReceipt(node, true)
 		}()
 		cli.dispatchEvent(&events.UndecryptableMessage{Info: *info, IsUnavailable: true})
